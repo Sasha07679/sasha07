@@ -1,0 +1,60 @@
+.hero { 
+    height: 90vh;
+     /* presque plein écran */
+      background-image: url("images/hero.jpg"); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      display: flex; 
+      align-items: center; 
+      padding: 60px; } 
+      /* Texte */
+.hero-content { 
+    max-width: 500px; 
+    color: #111; } 
+.mini-title { 
+        text-transform: uppercase; 
+        font-size: 14px; 
+        letter-spacing: 1px; } 
+.hero h1 { 
+            font-size: 48px; 
+            font-weight: 900; 
+            margin: 10px 0; } 
+.desc { 
+                font-size: 16px; 
+                margin-bottom: 20px; } 
+                /* Boutons */ 
+.hero-buttons { 
+    display: flex; 
+    gap: 10px; 
+} 
+    .btn { padding: 10px 18px; 
+        border-radius: 20px; 
+        text-decoration: none; 
+        font-weight: bold; 
+    } 
+        .primary { 
+            background:#203592;
+color:white;} 
+            .secondary { 
+                border: 1px solid black; 
+                color: black; } 
+                .hero { 
+                    background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0)), url("jarmoluk-ball-488718_1920.jpg"); } 
+                    nav ul {
+                        list-style-type: none; 
+                        margin: 0; 
+                        padding: 0; 
+                        background-color: #203592; 
+                        overflow: hidden; } 
+                        nav li { 
+                            float: left; } 
+                            nav li a { 
+                                display: block; 
+                                color: white; 
+                                text-align: center; 
+                                padding: 14px 16px; 
+                                text-decoration: none; } 
+                                nav li a:hover { 
+                                    background-color: #111; } 
+                                    html{ scroll-behavior: smooth; }
